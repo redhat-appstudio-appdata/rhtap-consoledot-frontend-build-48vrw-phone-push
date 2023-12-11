@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: rhtap-consoledot-frontend-build-tests
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: rhtap-consoledot-frontend-build-tests
+    app.kubernetes.io/part-of: rhtap-consoledot-frontend-build
+  name: rhtap-consoledot-frontend8vrf
+spec:
+  path: /
+  port:
+    targetPort: 3001
+  to:
+    kind: Service
+    name: rhtap-consoledot-frontend-build-tests
+    weight: null
+status: {}
