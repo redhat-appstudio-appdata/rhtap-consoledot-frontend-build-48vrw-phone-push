@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/rhtap-consoledot-frontend-build/rhtap-consoledot-frontend-build-tests@sha256:a4a32fb1bacd11253efa5eba45ea900bb5e4006f3a5f17ad154d5d554e8abf68
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/rhtap-consoledot-frontend-build/rhtap-consoledot-frontend-build-tests@sha256:2821c2cd6ca8b655da5ccecbfcaaf6d48c5e02e9439ed51dc9ad602d9bee8277
         name: my-nodejs
         resources: {}
 status: {}
