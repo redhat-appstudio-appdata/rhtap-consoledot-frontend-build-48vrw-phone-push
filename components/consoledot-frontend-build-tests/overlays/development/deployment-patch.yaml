@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: consoledot-frontend-build-tests
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/rhtap-consoledot-frontend-build/consoledot-frontend-build-tests@sha256:dfe524cb1dda04afa334677f8cbb803e08438ea77a38f3a4ea20bd03a9c3c983
+        name: my-nodejs
+        resources: {}
+status: {}
