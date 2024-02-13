@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: consoledot-frontend-build-tests
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/rhtap-consoledot-frontend-build/consoledot-frontend-build-tests@sha256:d7d802072cf7c72ec34e7b8c20619946dd250757fbe420886daa69c7a97cb98f
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/rhtap-consoledot-frontend-build/consoledot-frontend-build-tests@sha256:10820ee18c40d8c6a27bf2e07ce205a9205f1377f30ae661c28bd210108b205c
         name: my-nodejs
         resources: {}
 status: {}
