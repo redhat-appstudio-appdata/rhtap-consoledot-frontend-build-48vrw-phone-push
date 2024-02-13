@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: consoledot-frontend-build-tests
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
