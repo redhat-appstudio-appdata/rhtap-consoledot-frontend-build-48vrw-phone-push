@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: consoledot-frontend-build-tests
     app.kubernetes.io/part-of: rhtap-consoledot-frontend-build
-  name: consoledot-frontend-buildlgvr
+  name: consoledot-frontend-buildzunm
 spec:
   path: /
   port:
