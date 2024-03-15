@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: consoledot-frontend-build-tests
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/rhtap-consoledot-frontend-build/consoledot-frontend-build-tests@sha256:b699c377950d54b4a8d4a37d525dbd240edf7802667b04cb827dd934fe58c093
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/rhtap-consoledot-frontend-build/consoledot-frontend-build-tests@sha256:22d173f38aff74d949db548872d9dd711984b0da10526e4e30facb791a3d8e1f
         name: my-nodejs
         ports:
         - containerPort: 3001
